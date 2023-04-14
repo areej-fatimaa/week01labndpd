@@ -1,0 +1,7 @@
+D:\oopweek01lab\fileHandling\bin\Debug\fileHandling.exe.config
+D:\oopweek01lab\fileHandling\bin\Debug\fileHandling.exe
+D:\oopweek01lab\fileHandling\bin\Debug\fileHandling.pdb
+D:\oopweek01lab\fileHandling\obj\Debug\fileHandling.csproj.AssemblyReference.cache
+D:\oopweek01lab\fileHandling\obj\Debug\fileHandling.csproj.CoreCompileInputs.cache
+D:\oopweek01lab\fileHandling\obj\Debug\fileHandling.exe
+D:\oopweek01lab\fileHandling\obj\Debug\fileHandling.pdb

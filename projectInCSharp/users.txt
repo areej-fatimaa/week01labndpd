@@ -1,0 +1,5 @@
+areej,areej,admin
+areej,areej,admin
+areej,areej,admin
+erogesic,100,12
+hamna,hamna,customer

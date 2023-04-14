@@ -1,0 +1,10 @@
+D:\oopweek01lab\gameProjectInCSharp\bin\Debug\gameProjectInCSharp.exe.config
+D:\oopweek01lab\gameProjectInCSharp\bin\Debug\gameProjectInCSharp.exe
+D:\oopweek01lab\gameProjectInCSharp\bin\Debug\gameProjectInCSharp.pdb
+D:\oopweek01lab\gameProjectInCSharp\bin\Debug\EZInput.dll
+D:\oopweek01lab\gameProjectInCSharp\bin\Debug\EZInput.xml
+D:\oopweek01lab\gameProjectInCSharp\obj\Debug\gameProjectInCSharp.csproj.AssemblyReference.cache
+D:\oopweek01lab\gameProjectInCSharp\obj\Debug\gameProjectInCSharp.csproj.CoreCompileInputs.cache
+D:\oopweek01lab\gameProjectInCSharp\obj\Debug\gameProjectInCSharp.csproj.CopyComplete
+D:\oopweek01lab\gameProjectInCSharp\obj\Debug\gameProjectInCSharp.exe
+D:\oopweek01lab\gameProjectInCSharp\obj\Debug\gameProjectInCSharp.pdb

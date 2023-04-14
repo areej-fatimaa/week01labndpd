@@ -1,0 +1,3 @@
+rof,200,12
+panadol,122,22
+erogesic,122,1
