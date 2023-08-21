@@ -20,7 +20,7 @@ namespace projectInCSharp
         static int medicinecount = 0;                                                                 // take a count of medicines in store
         static void Main(string[] args)
         {
-            ReadUsersfromFile();
+           ReadUsersfromFile();
             ReadInventoryDetailsFromFile();
             int checkADMS=0;    // will check options entered by admins
             int checkCMS=0;     // will check options entered by customer
@@ -37,6 +37,7 @@ namespace projectInCSharp
                     {
                         while (checkADMS != 5) // loop for checking admin options
                         {
+                            Console.Clear();
                             checkADMS = AdminMainScreen();
                             if (checkADMS == 1)
                             {
@@ -59,6 +60,7 @@ namespace projectInCSharp
                                 Console.Clear();
                                 CreateList();
                             }
+                            Console.ReadKey();
                         }
                     }
                     else if (checkrole == "customer" || checkrole == "Customer")
@@ -242,17 +244,15 @@ namespace projectInCSharp
         }
         static void ReadUsersfromFile()
         {
-            string path = "D:\\oopweek01lab\\projectInCSharp\\users.txt";
+            string path = "D:\\oopweek01lab\\week01labndpd\\projectInCSharp\\users.txt";
 
             int x = 0;
             if (File.Exists(path))
             {
                 StreamReader fileVariable = new StreamReader(path);
-               
                 string record;
                 while ((record = fileVariable.ReadLine()) != null)
                 {
-                    Console.ReadKey();
                     users[x] = ParseData(record, 1);
                     password[x] = ParseData(record, 2);
                     roles[x] = ParseData(record, 3);
@@ -289,7 +289,7 @@ namespace projectInCSharp
         }
         static void StoreInFileUsers(string userName,string userpassword,string userrole)
         {
-            string path = "D:\\oopweek01lab\\projectInCSharp\\users.txt";
+            string path = "D:\\oopweek01lab\\week01labndpd\\projectInCSharp\\users.txt";
             StreamWriter file = new StreamWriter(path, true);
             file.WriteLine(userName + "," + userpassword + "," + userrole);
             file.Flush();
@@ -375,6 +375,7 @@ namespace projectInCSharp
                 {
                     index = i;
                     Console.WriteLine("press any key to confirm deletion!!");
+                    Console.ReadKey();
                 }
             }
             return index;
@@ -423,7 +424,7 @@ namespace projectInCSharp
         static void ReadInventoryDetailsFromFile()
         {
 
-            string path = "D:\\oopweek01lab\\projectInCSharp\\inventoryDetails.txt";
+            string path = "D:\\oopweek01lab\\week01labndpd\\projectInCSharp\\inventoryDetails.txt";
 
             int x = 0;
             if (File.Exists(path))
@@ -433,10 +434,9 @@ namespace projectInCSharp
                 string record;
                 while ((record = fileVariable.ReadLine()) != null)
                 {
-                    Console.ReadKey();
                     medicinename[x] = ParseData(record, 1);
-                    medicineprice[x] =Convert.ToInt32( ParseData(record, 2));
-                    medicinestock[x] =Convert.ToInt32( ParseData(record, 3));
+                    medicineprice[x] = Convert.ToInt32(ParseData(record, 2));
+                    medicinestock[x] = Convert.ToInt32(ParseData(record, 3));
                     x++;
                     if (x > userarrsize)
                     {
@@ -453,7 +453,7 @@ namespace projectInCSharp
         }
         static void StoreInventoryInFile(string medicinename,int medicineprice,int medicinestock)
         {
-            string path = "D:\\oopweek01lab\\projectInCSharp\\inventoryDetails.txt";
+            string path = "D:\\oopweek01lab\\week01labndpd\\projectInCSharp\\inventoryDetails.txt";
             StreamWriter file = new StreamWriter(path, true);
             file.WriteLine(medicinename + "," + medicineprice + "," + medicinestock);
             file.Flush();
@@ -462,7 +462,7 @@ namespace projectInCSharp
         }
         static void StoreInventoryInFileUpdate()
         {
-            string path = "D:\\oopweek01lab\\projectInCSharp\\inventoryDetails.txt";
+            string path = "D:\\oopweek01lab\\week01labndpd\\projectInCSharp\\inventoryDetails.txt";
             StreamWriter file = new StreamWriter(path);
             for(int i =0; i<medicinecount;i++)
             {

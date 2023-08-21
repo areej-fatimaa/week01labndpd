@@ -5,3 +5,10 @@ D:\oopweek01lab\projectInCSharp\obj\Debug\projectInCSharp.csproj.AssemblyReferen
 D:\oopweek01lab\projectInCSharp\obj\Debug\projectInCSharp.csproj.CoreCompileInputs.cache
 D:\oopweek01lab\projectInCSharp\obj\Debug\projectInCSharp.exe
 D:\oopweek01lab\projectInCSharp\obj\Debug\projectInCSharp.pdb
+D:\oopweek01lab\week01labndpd\projectInCSharp\bin\Debug\projectInCSharp.exe.config
+D:\oopweek01lab\week01labndpd\projectInCSharp\bin\Debug\projectInCSharp.exe
+D:\oopweek01lab\week01labndpd\projectInCSharp\bin\Debug\projectInCSharp.pdb
+D:\oopweek01lab\week01labndpd\projectInCSharp\obj\Debug\projectInCSharp.csproj.AssemblyReference.cache
+D:\oopweek01lab\week01labndpd\projectInCSharp\obj\Debug\projectInCSharp.csproj.CoreCompileInputs.cache
+D:\oopweek01lab\week01labndpd\projectInCSharp\obj\Debug\projectInCSharp.exe
+D:\oopweek01lab\week01labndpd\projectInCSharp\obj\Debug\projectInCSharp.pdb
